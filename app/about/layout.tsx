@@ -10,8 +10,8 @@ export default function layout({
 	aboutTeam: React.ReactNode;
 }>) {
 	return (
-		<div>
+		<>
 			{children} {aboutTeam} {aboutAnalytics}
-		</div>
+		</>
 	);
 }

@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Teams() {
-	return <div>About Teams</div>;
+	return <div className='site-extra-wide bg-red-400'>About Teams</div>;
 }
