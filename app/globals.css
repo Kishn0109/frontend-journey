@@ -82,7 +82,7 @@
 				auto
 			)
 			[full-end];
-		@apply grid bg-red-50;
+		@apply grid bg-secondary;
 	}
 	.site-full {
 		grid-column: full-start / full-end;
