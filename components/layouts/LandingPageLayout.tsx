@@ -5,5 +5,5 @@ export default function LandingPageLayout({
 }: {
 	children: React.ReactNode;
 }) {
-	return <div className='site-container'>{children} </div>;
+	return <div className=''>{children} </div>;
 }
