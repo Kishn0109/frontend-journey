@@ -57,6 +57,7 @@ export default function gsapPage() {
 				type: "x",
 				bounds: sliderContainer.current,
 				inertia: true,
+				minDuration: 1,
 
 				onDrag: function () {
 					const containerWidth = sliderContainer.current.offsetWidth;
